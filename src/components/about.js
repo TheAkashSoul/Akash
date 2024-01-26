@@ -10,7 +10,7 @@ export default function About() {
       <div className="py-10 items-center flex flex-col justify-center gap-2">
         <div className="flex flex-row gap-1 items-center justify-center">
           <h1 className="font-bold text-4xl text-[#242F65] text-center">
-            Hi, I'm Akash!
+            Hi, I&apos;m Akash!
           </h1>
           <Image src={arm} alt="Arm logo" height={30} width={40} />
         </div>
