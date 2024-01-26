@@ -1,5 +1,5 @@
 import Image from "next/image";
-import photo from "../../assets/photo.png";
+import photo from "../../assets/Photo.png";
 import { FaGithub } from "react-icons/fa";
 
 export default function ProjectCard() {
