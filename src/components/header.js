@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 
 export default function Header() {
   return (
-    <header className="max-w-3xl bg-slate-400 h-12 mx-auto flex flex-row items-center justify-between px-6 gap-4">
+    <header className="max-w-3xl h-12 mx-auto flex flex-row items-center justify-between px-6 gap-4">
       <Link href="/" className="flex flex-row gap-1">
         <Image src={logo} alt="Logo of Portfolio" width={30} height={30} />
         <h1 className="font-bold">Akash</h1>
