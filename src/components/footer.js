@@ -40,7 +40,7 @@ export default function Footer() {
         <div className="flex flex-row items-center justify-between w-full px-8 md:px-16 my-10">
           <div className="flex flex-row gap-10">
             <div className="flex flex-col gap-4">
-              <Link href="#home" className="text-[#242F65] font-medium text-xs">
+              <Link href="/" className="text-[#242F65] font-medium text-xs">
                 Home
               </Link>
               <Link
@@ -64,10 +64,34 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <BsTwitterX />
-              <FaLinkedin />
-              <GrInstagram />
-              <FaGithub />
+              <a
+                href="https://twitter.com/TheAkashSoul"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsTwitterX />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/akashpatro/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://www.instagram.com/theakashsoul/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GrInstagram />
+              </a>
+              <a
+                href="https://github.com/TheAkashSoul"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
             </div>
           </div>
 

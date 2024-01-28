@@ -95,7 +95,7 @@ export default function Skills() {
             <p className="font-bold text-xs text-[#509941]">NODE.JS</p>
           </div>
 
-          <div className="flex flex-row gap-1 items-center justify-center border-[#2F2F2F] hover:bg-[#F5FFFA] hover:scale-110 hover:border-[#36B6F2] border-2 px-2 py-1 rounded-md cursor-pointer">
+          <div className="flex flex-row gap-1 items-center justify-center border-[#2F2F2F] hover:bg-[#F5FFFA] hover:scale-110 hover:border-[#09090C] border-2 px-2 py-1 rounded-md cursor-pointer">
             <SiExpress color="#09090C" size={14} />
             <p className="font-bold text-xs text-[#09090C]">EXPRESS.JS</p>
           </div>

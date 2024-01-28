@@ -9,11 +9,31 @@ export default function Header() {
         <Image src={logo} alt="Logo of Portfolio" width={30} height={30} />
         <h1 className="font-bold">Akash</h1>
       </Link>
-      <div className="md:flex flex-row gap-10 text-xs font-semibold hidden">
-        <Link href="#about">About</Link>
-        <Link href="">Skills</Link>
-        <Link href="#projects">Projects</Link>
-        <Link href="/">Contact</Link>
+      <div className="md:flex flex-row gap-6 text-xs font-semibold hidden">
+        <Link
+          href="#about"
+          className="hover:text-[#FFF] px-2 py-1 rounded-full hover:bg-[#141414]"
+        >
+          About
+        </Link>
+        <Link
+          href="#skills"
+          className="hover:text-[#FFF] px-2 py-1 rounded-full hover:bg-[#141414]"
+        >
+          Skills
+        </Link>
+        <Link
+          href="#projects"
+          className="hover:text-[#FFF] px-2 py-1 rounded-full hover:bg-[#141414]"
+        >
+          Projects
+        </Link>
+        <Link
+          href="#contact"
+          className="hover:text-[#FFF] px-2 py-1 rounded-full hover:bg-[#141414]"
+        >
+          Contact
+        </Link>
       </div>
     </header>
   );
