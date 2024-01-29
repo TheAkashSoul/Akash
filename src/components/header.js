@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <header className="max-w-3xl h-12 mx-auto flex flex-row items-center justify-between px-6 gap-4">
       <Link href="/" className="flex flex-row gap-1">
-        <Image src={logo} alt="Logo of Portfolio" width={30} height={30} />
-        <h1 className="font-bold">Akash</h1>
+        {/* <Image src={logo} alt="Logo of Portfolio" width={20} height={20} /> */}
+        <h1 className="font-bold text-[#FF774C]">Akash</h1>
       </Link>
       <div className="md:flex flex-row gap-6 text-xs font-semibold hidden">
         <Link

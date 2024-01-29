@@ -44,6 +44,12 @@ export default function Footer() {
                 Home
               </Link>
               <Link
+                href="#about"
+                className="text-[#242F65] font-medium text-xs"
+              >
+                About
+              </Link>
+              <Link
                 href="#skills"
                 className="text-[#242F65] font-medium text-xs"
               >
@@ -54,12 +60,6 @@ export default function Footer() {
                 className="text-[#242F65] font-medium text-xs"
               >
                 Projects
-              </Link>
-              <Link
-                href="#about"
-                className="text-[#242F65] font-medium text-xs"
-              >
-                About
               </Link>
             </div>
 
