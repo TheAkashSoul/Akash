@@ -1,8 +1,6 @@
 import About from "@/components/about";
-import Footer from "@/components/footer";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,8 +12,6 @@ export default function Home() {
       <Skills />
 
       <Projects />
-
-      <Footer />
     </main>
   );
 }
