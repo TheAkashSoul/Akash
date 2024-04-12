@@ -8,11 +8,17 @@ const About = () => {
             Next.JS Developer
           </p>
         </div>
-        <div className="h-20 w-20 bg-black dark:bg-white overflow-hidden rounded-md">
-          <img
-            src="/akash_img.jpg"
-            className="object-cover w-full h-full brightness-110 contrast-110"
-          />
+        <div className="relative h-fit w-fit">
+          <div className="h-20 w-20 border border-zinc-300 overflow-hidden rounded-md">
+            <span className="absolute w-[150%] -top-[2px] -right-[20px] h-[3px] bg-gradient-to-r from-blue-500/0 via-blue-500/40 to-blue-500/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
+            <span className="absolute w-[3px] -right-[2px] -top-[20%] h-[150%] bg-gradient-to-b from-blue-500/0 via-blue-500/40 to-blue-500/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
+
+            <img
+              src="/akash_img.jpg"
+              alt="akash image"
+              className="object-cover w-full h-full brightness-110 contrast-110"
+            />
+          </div>
         </div>
       </div>
       <div className="mt-2">
