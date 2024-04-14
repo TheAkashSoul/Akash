@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 export default function Layout({
@@ -12,6 +13,10 @@ export default function Layout({
       </div>
 
       {children}
+
+      <div className="mt-20 max-w-2xl mx-auto px-6 md:px-0">
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -5,7 +5,7 @@ const Contact = () => {
     <div id="contact">
       <h2 className="text-2xl md:text-4xl font-bold mb-4">Contact</h2>
 
-      <div className="bg-[#EFF6FF] dark:bg-[#161C31] w-full p-10 rounded-md">
+      <div className="bg-[#EFF6FF] dark:bg-[#161C31] w-full p-10 rounded-md overflow-hidden">
         <h5 className="text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100">
           Ready to take the next step? Let&apos;s chat!
         </h5>
