@@ -10,7 +10,7 @@ const Theme = () => {
 
   useEffect(() => {
     setTheme("dark");
-  }, []);
+  }, [setTheme]);
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
@@ -29,3 +29,17 @@ const Theme = () => {
 };
 
 export default Theme;
+
+export function Xsvg({ className }: { className?: string }) {
+  const { theme, setTheme } = useTheme();
+
+  return (
+    <div>
+      <img
+        src={theme === "light" ? "/X_lightmode.svg" : "/X_darkmode.svg"}
+        alt="X"
+        className={className}
+      />
+    </div>
+  );
+}
