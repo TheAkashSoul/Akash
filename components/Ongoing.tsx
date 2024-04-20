@@ -1,15 +1,25 @@
+import supabaseData from "@/data/supabase";
 import OngoingCard from "./OngoingCard";
 
-const Ongoing = () => {
+type OngoingProps = {
+  id: number;
+  description?: string;
+  href?: string;
+};
+const Ongoing = async () => {
+  const ongoingData = await supabaseData("Ongoing");
   return (
     <div id="ongoing">
       <h2 className="text-2xl md:text-4xl font-bold mb-4">Ongoing</h2>
 
       <div className="w-full flex flex-col">
-        <OngoingCard
-          description="Currently in the process of wireframing and preparing to implement the UI for next SaaS product."
-          href=""
-        />
+        {ongoingData
+          ?.slice()
+          .reverse()
+          .slice(0, 2)
+          .map((ongoing: OngoingProps) => (
+            <OngoingCard key={ongoing.id} {...ongoing} />
+          ))}
       </div>
     </div>
   );
